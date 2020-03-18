@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-changeset-issue',
+    podModulePrefix: 'ember-changeset-issue/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',

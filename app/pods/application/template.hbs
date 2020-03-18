@@ -1,0 +1,11 @@
+<h1>ember-changeset date issue</h1>
+<form {{on "submit" this.submit}}>
+  <div>
+    <Input @value={{this.dateString}} autocomplete="off" />
+    <button type="button" {{on "click" this.updateDate}}>Update Date</button>
+  </div>
+  <div>
+    <small><strong>{{to-string this.changeset.dateOfBirth}}</strong></small>
+  </div>
+  <button type="submit">Submit</button>
+</form>
